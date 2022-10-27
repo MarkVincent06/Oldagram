@@ -60,6 +60,7 @@ header {
 
 .post {
     margin: 10px -10px;
+    transition: all 200ms linear;
 }
 
 .interactions-wrapper {
@@ -71,12 +72,17 @@ header {
 .interactions-wrapper > .icon {
     width: 30px;
     align-items: center;
+    transition: all 150ms linear;
 }
 
 
 /* Typography */
-.name, .place, .likes, .comments {
+.name, .place, .likes, .comment {
     font-size: 15px;
+}
+
+.comment > span {
+    font-weight: bold;
 }
 
 
@@ -93,4 +99,13 @@ header {
     border-radius: 50%;
 }
 
-
+/* Hovers, Actives, Focus */
+.icon:hover,
+.icon:active,
+.icon:focus,
+.post:hover, 
+.post:active, 
+.post:focus {
+    cursor: pointer;
+    opacity: 0.7;
+}
