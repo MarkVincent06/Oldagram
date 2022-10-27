@@ -5,7 +5,8 @@ body {
     font-family: 'Source Sans Pro', sans-serif;;
 }
 
-/* Container */
+
+/* ALL */
 .container {
     width: 400px;
     margin: 0 auto;
@@ -13,35 +14,83 @@ body {
     padding: 10px;
 }
 
-/* Images */
-.header--main-logo {
-    width: 127px;
-    height: 40px;
+.margin-bottom {
+    margin-bottom: 30px;
 }
 
-.profile {
-    width: 40px;
-    border-radius: 50%;
+h3, p {
+    margin: 0;
 }
-
-/* Typography */
 
 
 
 /* Layout */
 header {
-    margin: 10px 0;
+    margin-top: 10px;
 }
 
 .header--contents {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid lightgray;
+    border-bottom: 2px solid lightgray;
 }
 
 .section-contents {
-     
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.section-contents > .poster-wrapper {
+     display: flex;
+     align-items: center;
+     gap: 10px;
+}
+
+.poster-wrapper > .poster--background {
+    display: flex;
+    flex-direction: column;
+}
+
+.poster--background > .name,
+.poster--background > .place {
+    margin: 0;
+}
+
+.post {
+    margin: 10px -10px;
+}
+
+.interactions-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.interactions-wrapper > .icon {
+    width: 30px;
+    align-items: center;
+}
+
+
+/* Typography */
+.name, .place, .likes, .comments {
+    font-size: 15px;
+}
+
+
+
+/* Images */
+.header--main-logo {
+    width: 127px;
+    height: 40px;
+    font-weight: 700;
+}
+
+.profile {
+    width: 40px;
+    border-radius: 50%;
 }
 
 
