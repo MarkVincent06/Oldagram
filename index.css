@@ -1,0 +1,47 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #EDEDED;
+    font-family: 'Source Sans Pro', sans-serif;;
+}
+
+/* Container */
+.container {
+    width: 400px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    padding: 10px;
+}
+
+/* Images */
+.header--main-logo {
+    width: 127px;
+    height: 40px;
+}
+
+.profile {
+    width: 40px;
+    border-radius: 50%;
+}
+
+/* Typography */
+
+
+
+/* Layout */
+header {
+    margin: 10px 0;
+}
+
+.header--contents {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
+.section-contents {
+     
+}
+
+
